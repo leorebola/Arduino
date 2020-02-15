@@ -1,5 +1,3 @@
-String valueSerial, valueSerial3;
-
 void setup() {
   Serial.begin(9600); // Establece la velocidad para el Monitor Serie.
   Serial.println("SIM800L EVB");
