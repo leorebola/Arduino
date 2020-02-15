@@ -1,3 +1,5 @@
+// Enviar comandos AT desde el Monitor Serie al SIM800L (Arduino Mega) 
+
 void setup() {
   Serial.begin(9600); // Establece la velocidad para el Monitor Serie.
   Serial.println("SIM800L EVB");
